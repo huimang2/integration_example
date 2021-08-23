@@ -1,0 +1,10 @@
+{
+    "domain": "basic_async",
+    "name": "Basic Async",
+    "documentation": "https://github.com/huimang2/integration_example/basic_async",
+    "dependencies": [],
+    "codeowners": ["@huimang2"],
+    "requirements": [],
+    "iot_class": "local_polling",
+    "version": "1.0.0"
+  }
