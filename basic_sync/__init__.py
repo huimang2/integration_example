@@ -11,8 +11,9 @@ DOMAIN = "basic_sync"
 
 def setup(hass, config):
     """basic_sync 통합 구성요소 설정"""
+    # 코어의 states를 설정하는 가장 기본적인 형식입니다.
     # 상태(States)는 DOMAIN.OBJECT_ID 형식으로 설정됩니다.
-    hass.states.set('hello_world.Hello_World', 'Works!')
+    hass.states.set('basic_sync.Hello_World', 'Works!')
 
     # 초기화에 성공화면 True를 리턴합니다.
     return True
