@@ -1,0 +1,10 @@
+{
+    "domain": "basic_sync",
+    "name": "Basic Sync",
+    "documentation": "https://github.com/huimang2/integration_example/basic_sync",
+    "dependencies": [],
+    "codeowners": ["@huimang2"],
+    "requirements": [],
+    "iot_class": "local_polling",
+    "version": "1.0.0"
+  }
