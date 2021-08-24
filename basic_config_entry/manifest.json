@@ -1,0 +1,11 @@
+{
+    "domain": "basic_config_entry",
+    "name": "Basic Config Entry",
+    "documentation": "https://github.com/huimang2/integration_example/basic_config_entry",
+    "config_flow": true,
+    "dependencies": [],
+    "codeowners": ["@huimang2"],
+    "requirements": [],
+    "iot_class": "local_polling",
+    "version": "1.0.0"
+  }
