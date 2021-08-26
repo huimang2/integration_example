@@ -1,0 +1,11 @@
+{
+    "domain": "basic_polling_api_coordinator",
+    "name": "Basic Polling API Coordinator",
+    "documentation": "https://github.com/huimang2/integration_example/basic_polling_api_coordinator",
+    "config_flow": true,
+    "dependencies": [],
+    "codeowners": ["@huimang2"],
+    "requirements": [],
+    "iot_class": "local_polling",
+    "version": "1.0.0"
+  }

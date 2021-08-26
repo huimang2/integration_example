@@ -1,0 +1,11 @@
+get_state:
+  name: Get state
+  description: Get state
+  target:
+    entity:
+      domain: sensor
+  fields:
+    text:
+      name: State text
+      description: State text
+      required: true

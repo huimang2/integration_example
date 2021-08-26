@@ -1,0 +1,18 @@
+{
+    "title": "Basic Polling API Coordinator",
+    "config": {
+        "step": {
+            "user": {
+                "title": "Insert title and scan_interval",
+                "data": { 
+                    "title": "Title",
+                    "scan_interval": "Scan Interval"
+                }
+            }
+        },
+        "abort": {
+            "cannot_connect": "[%key:common::config_flow::error::cannot_connect%]",
+            "already_configured": "[%key:common::config_flow::abort::already_configured_service%]"
+        }
+    }
+}
