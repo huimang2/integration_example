@@ -10,7 +10,7 @@ DOMAIN = "basic_sync"
 
 
 def setup(hass, config):
-    """basic_sync 통합 구성요소 설정"""
+    """basic_sync 통합 구성요소 컴포넌트 설정"""
     # 상태(States)는 DOMAIN.OBJECT_ID 형식으로 설정됩니다.
     hass.states.set('basic_sync.Hello_World', 'Works!')
 

@@ -1,0 +1,10 @@
+{
+    "domain": "basic_platform_schema",
+    "name": "Basic Platform Schema",
+    "documentation": "https://github.com/huimang2/integration_example/basic_platform_schema",
+    "dependencies": [],
+    "codeowners": ["@huimang2"],
+    "requirements": [],
+    "iot_class": "local_polling",
+    "version": "1.0.0"
+  }

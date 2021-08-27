@@ -7,7 +7,7 @@ from homeassistant.helpers.update_coordinator import DataUpdateCoordinator, Coor
 
 
 async def async_setup_entry(hass, entry, async_add_entities):
-    """basic_polling_api_coordinator 통합 구성요소의 sensor 플랫폼 Entry 설정"""
+    """basic_polling_api_coordinator 통합 구성요소의 플랫폼 Entry 설정"""
 
     scan_interval = int(entry.data.get("scan_interval", 30))
 

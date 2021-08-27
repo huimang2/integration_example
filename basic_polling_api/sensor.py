@@ -9,7 +9,7 @@ SCAN_INTERVAL = timedelta(seconds=1)
 
 
 async def async_setup_platform(hass, config, async_add_entities, discovery_info=None):
-    """basic_polling_api 통합 구성요소의 sensor 플랫폼 Entry 설정"""
+    """basic_polling_api 통합 구성요소의 플랫폼 Entry 설정"""
 
     api = API()
 

@@ -6,7 +6,7 @@ from .const import DOMAIN
 
 
 class ConfigFlow(config_entries.ConfigFlow, domain=DOMAIN):
-    """basic_polling_api_coordinator 통합 구성요소 ConfigFlow """
+    """basic_polling_api_coordinator 통합 구성요소 ConfigFlow 클래스"""
 
     async def async_step_user(self, user_input):
 

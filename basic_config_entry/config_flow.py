@@ -1,4 +1,4 @@
-"""basic_config_entry 통합 구성요소 컴포넌트"""
+"""basic_config_entry 통합 구성요소 ConfigFlow"""
 import voluptuous as vol
 from homeassistant import config_entries
 
@@ -6,7 +6,7 @@ from .const import DOMAIN
 
 
 class ConfigFlow(config_entries.ConfigFlow, domain=DOMAIN):
-    """basic_config_entry 통합 구성요소 ConfigFlow """
+    """basic_config_entry 통합 구성요소 ConfigFlow 클래스"""
 
     async def async_step_user(self, user_input):
 

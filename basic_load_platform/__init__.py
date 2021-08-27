@@ -3,7 +3,7 @@ DOMAIN = 'basic_load_platform'
 
 
 def setup(hass, config):
-    """컨트롤러나 허브의 특정 코드"""
+    """basic_load_platform 통합 구성요소 컴포넌트 설정"""
     # 플랫폼과 공유하기 원하는 데이터
     hass.data[DOMAIN] = {
         'temperature': 30

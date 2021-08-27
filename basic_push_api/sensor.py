@@ -7,7 +7,7 @@ from homeassistant.helpers.dispatcher import (async_dispatcher_connect, async_di
 
 
 async def async_setup_platform(hass, config, async_add_entities, discovery_info=None):
-    """basic_push_api 통합 구성요소 설정"""
+    """basic_push_api 통합 구성요소의 플랫폼 설정"""
     
     # 서비스 추가
     platform = entity_platform.async_get_current_platform()
