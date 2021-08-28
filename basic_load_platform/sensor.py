@@ -6,7 +6,7 @@ from . import DOMAIN
 
 
 def setup_platform(hass, config, add_entities, discovery_info=None):
-    """basic_platform 통합 구성요소 설정"""
+    """basic_platform 통합 구성요소 플랫폼 설정"""
     # discovery를 통해서만 플랫폼이 설정되도록 합니다.
     if discovery_info is None:
         return

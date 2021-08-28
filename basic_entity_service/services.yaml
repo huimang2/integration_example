@@ -1,0 +1,31 @@
+# basic_entity_service 통합 구성요소 서비스
+
+# 서비스명
+call_entity_service:
+  # UI에서 보이는 서비스명
+  name: 구성요소 서비스 호출
+  # 서비스 설명
+  description: 구성요소 서비스를 호출하여 상태를 변경
+  # 특정 구성요소(entity), 기기(device), 영역(area)을 지정할 수 있습니다. 이 경우 fields에 entity_id를 지정해서는 안됩니다.
+  target:
+    entity:
+      domain: sensor
+  # 서비스의 매개변수
+  fields:
+    # 매개변수 키값
+    text:
+      # UI에서 보이는 매개변수명
+      name: 상태값
+      # 매개변수 설명
+      description: 상태값 입력
+      # 매개변수가 필요한지 안한지 설정 (기본값: false)
+      required: true
+      # 고급모드가 켜져있을때만 노출 (기본값: false)
+      advanced: true
+      # 매개변수값의 예시
+      example: "예시값"
+      # 기본 매개변수값
+      default: "기본값"
+      # 입력UI를 제어하기위한 선택자
+      selector:
+        text:
